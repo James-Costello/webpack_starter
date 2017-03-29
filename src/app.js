@@ -8,6 +8,8 @@ import {
   Link
 } from 'react-router-dom'
 import Layout from "./components/Layout";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 
 console.log('HELLO from app.js and webpack dev server');
@@ -18,6 +20,8 @@ ReactDOM.render(
   <Router>
     <div>
       <Route exact path="/" component={Layout}/>
+      <Route path="/about" component={About}/>
+      <Route path="/projects" component={Projects}/>
     </div>
   </Router>,
 app);
