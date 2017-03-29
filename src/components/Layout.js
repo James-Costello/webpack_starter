@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from "./Header";
+import Footer from "./Footer";
 
 
 export default class Layout extends React.Component {
@@ -12,7 +13,8 @@ export default class Layout extends React.Component {
     return (
       <div>
         <Header/>
-        <h1>It works! PRAISE {this.name}</h1>
+        <h1>It works! This is the layout. PRAISE {this.name}</h1>
+        <Footer/>
       </div>
     )
   }

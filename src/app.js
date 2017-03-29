@@ -17,8 +17,7 @@ const app = document.getElementById('root')
 ReactDOM.render(
   <Router>
     <div>
-      <Route exact path="/" component={Layout}>
-      </Route>
+      <Route exact path="/" component={Layout}/>
     </div>
   </Router>,
 app);
