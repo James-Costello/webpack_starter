@@ -4,7 +4,6 @@ import Footer from "./Footer";
 import About from "./About";
 import Projects from "./Projects";
 
-
 export default class Layout extends React.Component {
   constructor(){
     super();
