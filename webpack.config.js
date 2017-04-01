@@ -22,6 +22,10 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: 'babel-loader'
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: 'file-loader'
       }
     ]
   },
@@ -38,7 +42,7 @@ module.exports = {
       minify: {
         collapseWhitespace: true
       },
-      template: './src/index.ejs',
+      template: './src/index.html',
     }),
      new ExtractTextPlugin({
       filename: 'app.css',

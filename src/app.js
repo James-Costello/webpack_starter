@@ -7,7 +7,6 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import mo from 'react-mojs';
 import Layout from "./components/Layout";
 import About from "./components/About";
 import Projects from "./components/Projects";
