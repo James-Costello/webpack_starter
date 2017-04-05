@@ -1,4 +1,1 @@
-body {
-  background-color: pink; }
-  body p {
-    color: red; }
+*{margin:0;padding:0}#project-container{background-image:url("http://www.wikiality.com/file/2016/11/bears1.jpg")}#project-container,#project-container-2{position:absolute;width:100%;height:100%;background-size:cover}#project-container-2{background-image:url("https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg");top:100%;background-attachment:fixed}

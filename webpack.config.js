@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = {
   entry: './src/app.js',
   output: {
-    path: '/dist',
+    path: path.join(__dirname, "dist"),
     filename: 'app.bundle.js'
   },
   module: {
@@ -15,7 +15,7 @@ module.exports = {
           use: ExtractTextPlugin.extract({
             fallback: 'style-loader',
             use: ['css-loader', 'sass-loader'],
-            publicPath: '/dist'
+            publicPath: path.join(__dirname, "dist")
           }),
       },
       {
